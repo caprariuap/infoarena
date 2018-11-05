@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1469487579 source:c:\users\user\desktop\pbinfodailyproj\aria\main.cpp
+	<fstream>
+	<iomanip>
+	<cmath>
+

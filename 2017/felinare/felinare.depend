@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1491208597 source:c:\users\user\desktop\pbinfodailyproj\felinare\main.cpp
+	<fstream>
+	<vector>
+

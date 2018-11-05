@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1469525379 source:c:\users\user\desktop\pbinfodailyproj\idonum2\main.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	<queue>
+	<cstdio>
+	<fstream>
+

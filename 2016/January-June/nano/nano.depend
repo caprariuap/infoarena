@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1453850615 source:c:\users\user\desktop\pbinfodailyproj\nano\main.cpp
+	<fstream>
+	<cstring>
+

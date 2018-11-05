@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1491603654 source:c:\users\user\desktop\pbinfodailyproj\minuni\main.cpp
+	<fstream>
+	<algorithm>
+

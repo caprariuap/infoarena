@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1480176739 source:c:\users\user\desktop\pbinfodailyproj\kronican\main.cpp
+	<iostream>
+	<queue>
+	<vector>
+

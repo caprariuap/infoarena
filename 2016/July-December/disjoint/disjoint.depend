@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1474568244 source:c:\users\user\desktop\pbinfodailyproj\disjoint\main.cpp
+	<cstdio>
+	<vector>
+

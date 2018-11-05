@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1448879361 source:c:\users\user\desktop\pbinfodailyproj\alfabetar\main.cpp
+	<fstream>
+	<cstring>
+

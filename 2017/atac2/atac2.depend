@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1491422038 source:c:\users\user\desktop\pbinfodailyproj\atac2\main.cpp
+	<cstdio>
+	<vector>
+	<queue>
+	<fstream>
+

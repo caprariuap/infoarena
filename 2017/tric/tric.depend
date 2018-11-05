@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1491152688 source:c:\users\user\desktop\pbinfodailyproj\tric\main.cpp
+	<cstdio>
+	<vector>
+	<map>
+

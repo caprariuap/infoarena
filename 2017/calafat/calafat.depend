@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1491940033 source:c:\users\user\desktop\pbinfodailyproj\calafat\main.cpp
+	<cstdio>
+	<algorithm>
+	<vector>
+

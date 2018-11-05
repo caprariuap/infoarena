@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1492281155 source:c:\users\user\desktop\pbinfodailyproj\bemo\main.cpp
+	<cstdio>
+	<vector>
+	<algorithm>
+

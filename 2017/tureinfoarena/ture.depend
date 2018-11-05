@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1485214905 source:c:\users\user\desktop\pbinfodailyproj\usacogold\ture\main.cpp
+	<iostream>
+	<cstdio>
+
+1485218618 source:c:\users\user\desktop\pbinfodailyproj\tureinfoarena\main.cpp
+	<fstream>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1484249856 source:c:\users\user\desktop\pbinfodailyproj\usacosilver\ciclueuler\main.cpp
+	<cstdio>
+	<vector>
+

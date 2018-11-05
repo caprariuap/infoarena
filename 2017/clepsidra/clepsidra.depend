@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1492178380 source:c:\users\user\desktop\pbinfodailyproj\clepsidra\main.cpp
+	<fstream>
+	<vector>
+	<algorithm>
+

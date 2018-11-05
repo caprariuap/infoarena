@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1490736881 source:c:\users\user\desktop\pbinfodailyproj\pinex\main.cpp
+	<fstream>
+	<cmath>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1456689488 source:c:\users\user\desktop\pbinfodailyproj\litereio2016\main.cpp
+	<fstream>
+	<cstring>
+

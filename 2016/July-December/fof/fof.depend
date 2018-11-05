@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1468860477 source:c:\users\user\desktop\pbinfodailyproj\fof\main.cpp
+	<fstream>
+	<vector>
+	<queue>
+	<algorithm>
+

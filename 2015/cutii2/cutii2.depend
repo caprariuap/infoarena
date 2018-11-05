@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1450873955 source:c:\users\user\desktop\pbinfodailyproj\cutii2\main.cpp
+	<fstream>
+	<cstring>
+

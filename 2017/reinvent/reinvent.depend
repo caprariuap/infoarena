@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1491427885 source:c:\users\user\desktop\pbinfodailyproj\reinvent\main.cpp
+	<fstream>
+	<vector>
+	<queue>
+

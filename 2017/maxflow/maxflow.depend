@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1490298633 source:c:\users\user\desktop\concurs informatica\vii\maxflow\main.cpp
+	<fstream>
+	<vector>
+	<queue>
+
+1490298633 source:c:\users\user\desktop\pbinfodailyproj\maxflow\main.cpp
+	<fstream>
+	<vector>
+	<queue>
+

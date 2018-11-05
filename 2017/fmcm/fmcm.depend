@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1490873915 source:c:\users\user\desktop\pbinfodailyproj\fmcm\main.cpp
+	<fstream>
+	<vector>
+	<queue>
+

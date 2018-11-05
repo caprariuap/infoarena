@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1490376603 source:c:\users\user\desktop\pbinfodailyproj\simoni2\main.cpp
+	<fstream>
+	<vector>
+	<algorithm>
+

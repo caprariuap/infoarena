@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1472993161 source:c:\users\user\desktop\pbinfodailyproj\grafoji2006\main.cpp
+	<cstdio>
+	<vector>
+	<queue>
+	<algorithm>
+

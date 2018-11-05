@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1491410659 source:c:\users\user\desktop\pbinfodailyproj\curent\main.cpp
+	<fstream>
+	<vector>
+	<algorithm>
+

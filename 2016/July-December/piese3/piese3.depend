@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1478196279 source:c:\users\user\desktop\pbinfodailyproj\piese3\main.cpp
+	<cstdio>
+	<vector>
+	<algorithm>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1481233619 source:c:\users\user\desktop\pbinfodailyproj\flip\main.cpp
+	<iostream>
+	<cstdio>
+

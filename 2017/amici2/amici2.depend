@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1492297639 source:c:\users\user\desktop\pbinfodailyproj\amici2\main.cpp
+	<fstream>
+	<vector>
+	<cstring>
+	<queue>
+

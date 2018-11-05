@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1492086659 source:c:\users\user\desktop\pbinfodailyproj\arbvalmax\main.cpp
+	<cstdio>
+	<vector>
+

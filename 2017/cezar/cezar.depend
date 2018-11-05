@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1488309641 source:c:\users\user\desktop\pbinfodailyproj\cezar\main.cpp
+	<cstdio>
+	<vector>
+	<queue>
+

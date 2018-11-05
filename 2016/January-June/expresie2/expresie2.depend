@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1455311154 source:c:\users\user\desktop\pbinfodailyproj\expresie2\main.cpp
+	<fstream>
+	<cstring>
+

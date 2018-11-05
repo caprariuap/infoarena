@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1472519136 source:c:\users\user\desktop\pbinfodailyproj\cartita\main.cpp
+	<cstdio>
+	<vector>
+	<queue>
+

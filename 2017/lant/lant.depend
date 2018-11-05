@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1488226519 source:c:\users\user\desktop\pbinfodailyproj\lant\main.cpp
+	<fstream>
+	<vector>
+	<cstring>
+

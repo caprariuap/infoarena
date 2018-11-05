@@ -1,0 +1,68 @@
+8
+5 8 14 24 42 72 126
+1 2 3  4  5  6  7
+#include <fstream>
+using namespace std;
+ifstream fin("culori3.in");
+ofstream fout("culori3.out");
+int n,a[2][10001],au[2][10001],r[2][10001],v[2][10001],g[2][10001];
+void adunare(int rez[],int v1[], int v2[])
+{ int i,t=0,u=v1[0];
+  if(v2[0]>u)u=v2[0];
+  for(i=1;i<=u;i++) rez[i]=(v1[i]+v2[i]+t)%10, t=(v1[i]+v2[i]+t)/10;
+  if(t)rez[u+1]=t,rez[0]=u+1;
+       else rez[0]=u;
+}
+
+void cpy(int a[],int b[])
+{for (int i=0;i<=b[0];i++)
+a[0]=b[0];
+}
+int x,y;
+int main()
+{fin>>n;
+a[1][0]=a[1][1]=au[1][0]=au[1][1]=r[1][0]=r[1][1]=v[1][0]=v[1][1]=g[1][0]=g[1][1]=1;
+y=1;
+for (int i=2;i<=n;i++)
+{x=1-y;
+cpy(a[x],au[y]);
+adunare(au[x],a[y],r[y]);
+adunare(r[x],au[y],v[y]);
+adunare(v[x],r[y],g[y]);
+cpy(g[x],v[y]);
+y=x;
+}
+x=1-y;
+adunare(a[x],a[y],au[y]);
+adunare(a[y],a[x],v[y]);
+adunare(a[x],a[y],r[y]);
+adunare(a[y],a[x],g[y]);
+for (n=a[y][0];n;n--) fout<<a[y][n];
+}
+5 8 14 24 52 72 156
+#include <fstream>
+using namespace std;
+ifstream fin("culori3.in");
+ofstream fout("culori3.out");
+int n,s[10001],i;
+void inmultire(int a[],int x)
+{int t=0,i;
+for (i=1;i<=a[0];i++)
+{a[i]=a[i]*x+t;t=a[i]/10;
+a[i]%=10;
+}
+while (t) a[++a[0]]=t%10,t/=10;
+}
+int x,y;
+int main()
+{fin>>n;
+if (n==1) fout<<5;
+else if (n==2) fout<<8;
+    else if (n==3) fout<<14;
+    else
+    {
+
+    }
+for (n=s[0];n;n--) fout<<s[n];
+}
+

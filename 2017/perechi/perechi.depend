@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1488133269 source:c:\users\user\desktop\pbinfodailyproj\perechi\main.cpp
+	<iostream>
+	<cstdio>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1457454249 source:c:\users\user\desktop\pbinfodailyproj\ecuatii\main.cpp
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+

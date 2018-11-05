@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1476198267 source:c:\users\user\desktop\pbinfodailyproj\strmatch\main.cpp
+	<cstdio>
+	<cstring>
+	<iostream>
+

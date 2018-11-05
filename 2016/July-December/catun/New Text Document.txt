@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define NMax 18000
+
+int A[NMax+1][NMax+1], Fort[NMax+1], N, M, K, i, j, X, Y, MaxD;
+unsigned RandSeed;
+char FileName[30];
+FILE *F;
+
+int main(void)
+{
+  printf("N="); scanf("%d", &N);
+  printf("M="); scanf("%d", &M);
+  printf("K="); scanf("%d", &K);
+  printf("Lungimea maxima a muchiilor="); scanf("%d", &MaxD);
+  printf("Random seed="); scanf("%d", &RandSeed);
+  printf("Numele fisierului de iesire="); scanf("%s", FileName);
+  F=fopen(FileName, "wt");
+  srand(RandSeed);
+  fprintf(F, "%d %d %d\n", N, M, K);
+  for (i=1; i<=K; Fort[i++]=0);
+  for (i=1; i<=K; i++)
+    { do { X=rand()%18000+1; } while (Fort[X]);
+      Fort[X]=1;
+      fprintf(F, "%d", X);
+      fputc(i==K ? '\n' : ' ', F);
+    }
+  for (i=1; i<=N; i++)
+    for (j=1; j<=N; j++) A[i][j]=0;
+  for (i=1; i<=N; i++) A[i][i]=1;
+  for (i=1; i<=M; i++)
+    { do { X=rand()%18000+1; Y=rand()%18000+1; }
+      while (A[X][Y]);
+      A[X][Y]=A[Y][X]=1;
+      fprintf(F, "%d %d %d\n", X, Y, rand()%18000+1);
+    }
+  fclose(F);
+}

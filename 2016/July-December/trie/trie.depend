@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1475349216 source:c:\users\user\desktop\pbinfodailyproj\trie\main.cpp
+	<cstdio>
+	<fstream>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1480758148 source:c:\users\user\desktop\pbinfodailyproj\sediu\main.cpp
+	<iostream>
+	<vector>
+	<cstdio>
+

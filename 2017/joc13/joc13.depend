@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1488823896 source:c:\users\user\desktop\pbinfodailyproj\joc13\main.cpp
+	<cstdio>
+	<iostream>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1485529763 source:c:\users\user\desktop\pbinfodailyproj\costuri\main.cpp
+	<fstream>
+	<map>
+	<vector>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1488317444 source:c:\users\user\desktop\pbinfodailyproj\mosia\main.cpp
+	<fstream>
+	<algorithm>
+	<cmath>
+	<iomanip>
+

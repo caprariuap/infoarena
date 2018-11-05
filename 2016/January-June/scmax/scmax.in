@@ -1,0 +1,52 @@
+5
+24 12 15 15 19
+#include <fstream>
+#include <iostream>
+using namespace std;
+ifstream f("scmax.in");
+int v[100], d[100], p[100], n, k;
+void citire ()
+{
+int i;
+
+f>>n;
+for (i=1;i<=n;i++) f>>v[i];
+f.close();
+}
+void afisare (int k)
+{
+while (k>0)
+{
+cout<<v[k]<<' ';
+k=p[k];
+}
+}
+void dinamica ()
+{
+int i, j, maxi, max2=n, poz;
+d[n]=1;
+p[n]=0;
+for (i=n-1; i>=1; i--)
+{
+poz=0; maxi=0;
+for (j=i+1; j<=n; j++)
+if (v[i]<v[j] && d[j]>maxi)
+{
+maxi=d[j];
+poz=j;
+}
+d[i]=1+maxi;
+p[i]=poz;
+if (d[i]>d[max2]) max2=i;
+}
+cout<<"Lungimea maxima este : "<<d[max2]<<endl;
+afisare (max2);
+}
+int main()
+{
+citire();
+dinamica();
+return 0;
+}
+
+

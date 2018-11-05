@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1489156710 source:c:\users\user\desktop\pbinfodailyproj\biconex\main.cpp
+	<fstream>
+	<cstring>
+	<vector>
+	<algorithm>
+	<stack>
+

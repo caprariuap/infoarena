@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1491049532 source:c:\users\user\desktop\pbinfodailyproj\cmap\main.cpp
+	<fstream>
+	<iomanip>
+	<algorithm>
+	<vector>
+	<cmath>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1491650792 source:c:\users\user\desktop\pbinfodailyproj\info1cup\promotie\main.cpp
+	<fstream>
+	<vector>
+	<cstring>
+
